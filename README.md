@@ -32,3 +32,5 @@
    - lewis6991/gitsigns.nvim, -- 左则git提示
    -  akinsho/toggleterm.nvim
 
+### 已知问题
+ 直接使用pyright命令 提示一下报错 可能某些插件冲突 暂时不知道如何解决
