@@ -34,3 +34,4 @@
 
 ### 已知问题
  直接使用pyright命令 提示一下报错 可能某些插件冲突 暂时不知道如何解决
+![image](https://github.com/Jiang-Night/Nvim-config/blob/eeae6d1b3fafff96e30f3a21675a9c88a6fac94d/res/pyright.png)
