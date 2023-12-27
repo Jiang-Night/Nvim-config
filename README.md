@@ -30,7 +30,7 @@
 >
 >`toggleterm.lua`:nvim中的小终端 使用float样式
 >
-> `treesitter.lua`:语法高亮配置 **使用nvim打开此文件会出现报错 不清楚是不是配置有问题**
+> `treesitter.lua`:语法高亮配置 **[使用nvim打开此文件会出现报错 不清楚是不是配置有问题](https://github.com/Jiang-Night/Nvim-config/blob/eeae6d1b3fafff96e30f3a21675a9c88a6fac94d/res/treesitter.png "2")**
 ---
 
 ## 使用的插件
