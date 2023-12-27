@@ -1,4 +1,5 @@
 # Nvim配置
+> 使用操作的系统 ：`** Kali Linux (on the Windows Subsystem for Linux)**`
 ---
 ## 使用的插件
   - Lazy包管理器
