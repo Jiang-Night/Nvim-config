@@ -9,5 +9,4 @@ require("plugins.lualine") -- 状态栏
 require("plugins.treesitter") -- 代码提示
 require("plugins.git") --git 
 require("plugins.bufferline") -- buffer
--- require("toggleterm").setup() -- 终端
-require("plugins.toggleterm")
+require("plugins.toggleterm") --终端
