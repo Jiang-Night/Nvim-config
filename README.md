@@ -1,6 +1,38 @@
 # Nvim配置
-> 使用操作的系统 ：`** Kali Linux (on the Windows Subsystem for Linux)**`
+> OS ：`Kali Linux (on the Windows Subsystem for Linux)`
+> 
+> Kernel: `x86_64 Linux 5.15.133.1-microsoft-standard-WSL2`
 ---
+
+### lua
+>存放所有配置脚本
+---
+
+### options
+>nvim的基础设置以及快捷键配置`options.lua`中有详细注释说明 可自行更改
+---
+
+### plugins
+> 插件配置
+> `autopairs.lua`:自动补全括号配置
+> 
+> `bufferline.lua`:buffer插件配置
+> 
+> `cmp.lua`:自动补全插件配置 参考[这里](https://github.com/LunarVim/Neovim-from-scratch/blob/master/lua/user/cmp.lua "1")
+>
+> `git.lua`:git插件支持
+>
+> `lazy-config.lua`: 插件的配置管理
+>
+> `lualine.lua`:lualine插件配置 提供状态栏
+>
+> `nvim-tree.lua`:nvim-tree插件 提供左侧文件树 （打开快捷键 leader + t）
+>
+>`toggleterm.lua`:nvim中的小终端 使用float样式
+>
+> `treesitter.lua`:语法高亮配置 **使用nvim打开此文件会出现报错 不清楚是不是配置有问题**
+---
+
 ## 使用的插件
   - Lazy包管理器
   - nvim-tree
