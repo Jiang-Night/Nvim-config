@@ -65,9 +65,11 @@
 ---
 > 使用方法
 ```shell
-#打开终端
+#安装nvim ：https://github.com/neovim/neovim/blob/master/INSTALL.md （因为部分插件原因 必须保证neovim在v0.8+）
+#安装完成后 打开终端
 cd ~/.config
-git clone 
+git clone https://github.com/Jiang-Night/Nvim-config.git
+
 ```
 
 
