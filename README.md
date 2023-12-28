@@ -18,7 +18,7 @@
 > 
 > `bufferline.lua`:buffer插件配置
 > 
-> `cmp.lua`:自动补全插件配置 参考[这里](https://github.com/LunarVim/Neovim-from-scratch/blob/master/lua/user/cmp.lua "1")
+> `cmp.lua`:自动补全插件配置 参考[这里](https://github.com/LunarVim/Neovim-from-scratch/blob/master/lua/user/cmp.lua)
 >
 > `git.lua`:git插件支持
 >
@@ -30,7 +30,7 @@
 >
 >`toggleterm.lua`:nvim中的小终端 使用float样式
 >
-> `treesitter.lua`:语法高亮配置 **使用nvim打开此文件会出现报错 不清楚是不是配置有问题**
+> `treesitter.lua`:语法高亮配置 **[使用nvim打开此文件会出现报错 不清楚是不是配置有问题](https://github.com/Jiang-Night/Nvim-config/blob/main/res/treesitter.png)**
 ---
 
 ## 使用的插件
@@ -62,6 +62,16 @@
    - akinsho/bufferline.nvim buffer分割线
    - lewis6991/gitsigns.nvim 左则git提示
    -  akinsho/toggleterm.nvim
+---
+> 使用方法
+```shell
+#安装nvim ：https://github.com/neovim/neovim/blob/master/INSTALL.md （因为部分插件原因 必须保证neovim在v0.8+）
+#安装完成后 打开终端
+cd ~/.config
+git clone https://github.com/Jiang-Night/Nvim-config.git
+
+```
+
 
 ### 已知问题
  `直接使用pyright命令 提示一下报错 可能某些插件冲突 暂时不知道如何解决`
