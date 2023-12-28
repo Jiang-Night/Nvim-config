@@ -33,6 +33,15 @@ local plugins = {
     "williamboman/mason-lspconfig.nvim", -- 这个相当于mason.nvim和lspconfig的桥梁
     "neovim/nvim-lspconfig",
   },
+
+  {
+    "jose-elias-alvarez/null-ls.nvim", --代码格式化
+     event = "VeryLazy",
+    opts = function ()
+      return require("plugins.null-ls")
+    end
+  },
+
   -- 自动补全
   {
     "hrsh7th/nvim-cmp",
@@ -51,7 +60,7 @@ local plugins = {
   
   -- buffer
   {
-   "akinsho/bufferline.nvim", -- buffer分割线
+    {"akinsho/bufferline.nvim",require = 'nvim-tree/nvim-web-devicons'}, -- buffer分割线
    "lewis6991/gitsigns.nvim", -- 左则git提示
   },
 

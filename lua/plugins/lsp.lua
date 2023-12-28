@@ -12,12 +12,15 @@ require("mason-lspconfig").setup({
   -- 确保安装，根据需要填写
   ensure_installed = {
     "lua_ls",
+    "clangd",
+    "cmake",
+    "clang-format",
   },
 })
 
 
 local lsp = require("lspconfig")
-local lsp_ls = {"lua_ls","clangd","cmake","pyright"}
+local lsp_ls = {"lua_ls","cmake","clangd","pyright"}
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
