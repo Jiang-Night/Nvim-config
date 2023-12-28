@@ -19,7 +19,8 @@ local plugins = {
   "nvim-tree/nvim-web-devicons", -- 文档树图标  
    "nvim-treesitter/nvim-treesitter", -- 语法高亮
   "p00f/nvim-ts-rainbow", -- 配合treesitter，不同括号颜色区分
-
+  "Civitasv/cmake-tools.nvim", --Cmake工具
+  "glepnir/dashboard-nvim", --启动界面
 
   -- 文件检索
   {
@@ -32,6 +33,7 @@ local plugins = {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim", -- 这个相当于mason.nvim和lspconfig的桥梁
     "neovim/nvim-lspconfig",
+    "hrsh7th/cmp-cmdline",
   },
 
   {

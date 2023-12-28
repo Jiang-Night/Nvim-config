@@ -56,8 +56,6 @@ local keymap = vim.keymap
 
 -- ----------插入模式-------------
 keymap.set("i","jk","<ESC>")
-
-
 -- ----------视觉模式--------------
 -- 单行或多行移动
 keymap.set("v", "J", ":m '>+1<CR>gv=gv")

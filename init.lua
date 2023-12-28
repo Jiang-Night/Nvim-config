@@ -10,3 +10,5 @@ require("plugins.treesitter") -- 代码提示
 require("plugins.git") --git 
 require("plugins.bufferline") -- buffer
 require("plugins.toggleterm") --终端
+require("plugins.cmake-tools") --cmake
+-- require("plugins.splash") --启动界面
