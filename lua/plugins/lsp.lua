@@ -18,13 +18,14 @@ require("mason-lspconfig").setup({
 })
 
 
-local lsp = require("lspconfig")
-local lsp_ls = {"lua_ls","cmake","clangd","pyright"}
+local lspconfig = require("lspconfig")
+local servers = {"lua_ls","cmake","clangd","pyright"}
+
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
-for _,v in ipairs(lsp_ls) do
-  lsp[v].setup({
+for _,lsp in ipairs(servers) do
+  lspconfig[lsp].setup({
     capabilities = capabilities,
   })
 end

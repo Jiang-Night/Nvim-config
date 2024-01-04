@@ -34,6 +34,7 @@ local plugins = {
     "williamboman/mason-lspconfig.nvim", -- 这个相当于mason.nvim和lspconfig的桥梁
     "neovim/nvim-lspconfig",
     "hrsh7th/cmp-cmdline",
+    "onsails/lspkind-nvim",
   },
 
   {
