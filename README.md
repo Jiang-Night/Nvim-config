@@ -72,16 +72,3 @@ git clone https://github.com/Jiang-Night/Nvim-config.git
 
 ```
 
-
-### 已知问题
- `直接使用pyright命令 提示一下报错 可能某些插件冲突 暂时不知道如何解决`
-![image](https://github.com/Jiang-Night/Nvim-config/blob/eeae6d1b3fafff96e30f3a21675a9c88a6fac94d/res/pyright.png)
-
-`python文件如果有报错并不会提示（以下问题猜测是pyright安装有误`
-![image](https://github.com/Jiang-Night/Nvim-config/blob/eeae6d1b3fafff96e30f3a21675a9c88a6fac94d/res/python_not_error.png)
-
-`python文件没有代码提示 代码提示错误`
-
-![image](https://github.com/Jiang-Night/Nvim-config/blob/eeae6d1b3fafff96e30f3a21675a9c88a6fac94d/res/python_not_cmp.png)
-
-
